@@ -94,6 +94,7 @@ export function ArticleForm({
 
         if (!trimmedUrl && !trimmedContents) {
             toast.error("URLまたはテキストのいずれかを入力してください");
+            return;
         }
 
         if (trimmedUrl && !isValidUrl(trimmedUrl)) {
