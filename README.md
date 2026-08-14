@@ -69,7 +69,7 @@ password: password<br />
 
 
 ## 使用技術
-<img src="https://img.shields.io/badge/-PHP-777BB4.svg?logo=php&style=plastic"> <img src="https://img.shields.io/badge/-Laravel-E74430.svg?logo=laravel&style=plastic"> <img src="https://img.shields.io/badge/-Vue-42B883.svg?logo=vue.js&style=plastic"><img src="https://img.shields.io/badge/-MySQL-4479A1.svg?logo=mysql&style=plastic"> <img src="https://img.shields.io/badge/-Docker-1488C6.svg?logo=docker&style=plastic"> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4.svg?logo=tailwindcss&style=plastic"> <img src="https://img.shields.io/badge/-Railway-0F0F0F.svg?logo=railway&style=plastic"> <br />
+<img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=plastic"> <img src="https://img.shields.io/badge/-React-61DAFB.svg?logo=react&style=plastic"> <img src="https://img.shields.io/badge/-TypeScript-3178C6.svg?logo=typescript&style=plastic"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4.svg?logo=tailwindcss&style=plastic"> <img src="https://img.shields.io/badge/-shadcn/ui-000000.svg?logo=radix-ui&style=plastic"> <img src="https://img.shields.io/badge/-Zod-3E67B1.svg?logo=zod&style=plastic"> <img src="https://img.shields.io/badge/-Supabase-3FCF8E.svg?logo=supabase&style=plastic"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1.svg?logo=postgresql&style=plastic"><br />
   ・Frontend: Next.js 14/15 (App Router) / React / TypeScript / Tailwind CSS / Lucide Icons<br />
 ・Backend / DB: Supabase (PostgreSQL / Auth / Row Level Security)<br />
   ・AI Integration: AI SDK / Groq (Llama 3.3) / Zod (Structured Outputs)<br />
