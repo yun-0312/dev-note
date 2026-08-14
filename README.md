@@ -10,10 +10,10 @@ Supabase の Row Level Security (RLS) による堅牢なアクセス制御や、
 ## 本番環境（Vercel）
 https://dev-note-863vzjz9a-yun0312s-projects.vercel.app
 
-### 👥 動作確認用アカウント
+###  動作確認用アカウント
 アプリの機能をすぐにお試しいただけるデモ用アカウントです。
 * **Email:** `test@example.com`
-* **Password:** `your-secure-password`
+* **Password:** `password`
 
 ## 💡 こだわり・実装の工夫点
 
@@ -47,7 +47,7 @@ NEXT_PUBLIC_SUPABASE_URL=あなたのSupabaseプロジェクトURL
 NEXT_PUBLIC_SUPABASE_ANON_KEY=あなたのSupabaseAnonKey
 GROQ_API_KEY=あなたのGroqAPIキー
 ```
-  2. 依存関係のインストール
+  4. 依存関係のインストール
 ``` bash
 npm run dev
 ```
@@ -66,7 +66,7 @@ npm run dev
 
 
 ## 使用技術
-<img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=plastic"> <img src="https://img.shields.io/badge/-React-61DAFB.svg?logo=react&style=plastic"> <img src="https://img.shields.io/badge/-TypeScript-3178C6.svg?logo=typescript&style=plastic"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4.svg?logo=tailwindcss&style=plastic"> <img src="https://img.shields.io/badge/-shadcn/ui-000000.svg?logo=radix-ui&style=plastic"> <img src="https://img.shields.io/badge/-Supabase-3FCF8E.svg?logo=supabase&style=plastic"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1.svg?logo=postgresql&style=plastic"><br />
+<img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=plastic"> <img src="https://img.shields.io/badge/-React-61DAFB.svg?logo=react&style=plastic"> <img src="https://img.shields.io/badge/-TypeScript-3178C6.svg?logo=typescript&style=plastic"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4.svg?logo=tailwindcss&style=plastic"> <img src="https://img.shields.io/badge/-shadcn/ui-000000.svg?logo=radix-ui&style=plastic"> <img src="https://img.shields.io/badge/-Supabase-3FCF8E.svg?logo=supabase&style=plastic"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1.svg?logo=postgresql&style=plastic"> <img src="https://img.shields.io/badge/-AI%20SDK-000000.svg?logo=openai&style=plastic"><br />
   ・Frontend: Next.js 14/15 (App Router) / React / TypeScript / Tailwind CSS / Lucide Icons<br />
 ・Backend / DB: Supabase (PostgreSQL / Auth / Row Level Security)<br />
   ・AI Integration: AI SDK / Groq (Llama 3.3) <br />
@@ -113,5 +113,4 @@ using (
 ```
 
 ## URL
-・Login画面：http://localhost/login<br />
 ・Vercel本番環境：https://dev-note-863vzjz9a-yun0312s-projects.vercel.app
