@@ -10,6 +10,11 @@ Supabase の Row Level Security (RLS) による堅牢なアクセス制御や、
 ## 本番環境（Vercel）
 https://dev-note-863vzjz9a-yun0312s-projects.vercel.app
 
+### 👥 動作確認用アカウント
+アプリの機能をすぐにお試しいただけるデモ用アカウントです。
+* **Email:** `test@example.com`
+* **Password:** `your-secure-password`
+
 ## 💡 こだわり・実装の工夫点
 
 ### 1. AI（Groq API）を活用した自動要約・自動タグ生成
@@ -48,31 +53,23 @@ npm run dev
 ```
 ブラウザで http://localhost:3000 にアクセスして動作を確認できます。
 
-## サンプルユーザーアカウント（動作確認用）
-
-・ログインURL：http://localhost/login
-
-・テストユーザー<br />
-Email: test_user@example.com<br />
-password: password<br />
-
 
 ## 実装機能一覧
-* ・ 認証機能: 会員登録、ログイン / ログアウト（Supabase Auth）
-* ・記事・ノート管理 (CRUD):
+*  認証機能: 会員登録、ログイン / ログアウト（Supabase Auth）
+* 記事・ノート管理 (CRUD):
 ・記事の新規登録、編集、削除<br />
 ・URLからの自動タイトル推測機能<br />
 ・AIによる自動要約・タグ付け機能<br />
-* ・検索・絞り込み:タグ別でのリアルタイムフィルター検索
-* ・UI / プレビュー: Markdown形式のメモ管理 ＆ コードブロック対応
-* ・バリデーション: Zod およびクライアント側での堅牢な入力チェック
+* 検索・絞り込み:タグ別でのリアルタイムフィルター検索
+* UI / プレビュー: Markdown形式のメモ管理 ＆ コードブロック対応
+* バリデーション: クライアント側での堅牢な入力チェック（空欄防止・URL形式チェックなど）
 
 
 ## 使用技術
-<img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=plastic"> <img src="https://img.shields.io/badge/-React-61DAFB.svg?logo=react&style=plastic"> <img src="https://img.shields.io/badge/-TypeScript-3178C6.svg?logo=typescript&style=plastic"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4.svg?logo=tailwindcss&style=plastic"> <img src="https://img.shields.io/badge/-shadcn/ui-000000.svg?logo=radix-ui&style=plastic"> <img src="https://img.shields.io/badge/-Zod-3E67B1.svg?logo=zod&style=plastic"> <img src="https://img.shields.io/badge/-Supabase-3FCF8E.svg?logo=supabase&style=plastic"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1.svg?logo=postgresql&style=plastic"><br />
+<img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=plastic"> <img src="https://img.shields.io/badge/-React-61DAFB.svg?logo=react&style=plastic"> <img src="https://img.shields.io/badge/-TypeScript-3178C6.svg?logo=typescript&style=plastic"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4.svg?logo=tailwindcss&style=plastic"> <img src="https://img.shields.io/badge/-shadcn/ui-000000.svg?logo=radix-ui&style=plastic"> <img src="https://img.shields.io/badge/-Supabase-3FCF8E.svg?logo=supabase&style=plastic"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1.svg?logo=postgresql&style=plastic"><br />
   ・Frontend: Next.js 14/15 (App Router) / React / TypeScript / Tailwind CSS / Lucide Icons<br />
 ・Backend / DB: Supabase (PostgreSQL / Auth / Row Level Security)<br />
-  ・AI Integration: AI SDK / Groq (Llama 3.3) / Zod (Structured Outputs)<br />
+  ・AI Integration: AI SDK / Groq (Llama 3.3) <br />
   ・Deployment: Vercel (CI/CD)<br />
 
 ## ER図
