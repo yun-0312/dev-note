@@ -87,7 +87,7 @@ erDiagram
         text title "タイトル (必須)"
         text summary "要約・メモ"
         text_array tech_stack "技術スタック (配列)"
-        timestamptz created_at "作成日時"
+        timestampts created_at "作成日時"
         text contents "本文・AI壁打ちログ"
     }
 
