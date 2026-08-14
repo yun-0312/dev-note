@@ -12,7 +12,7 @@ https://dev-note-863vzjz9a-yun0312s-projects.vercel.app
 
 ###  動作確認用アカウント
 アプリの機能をすぐにお試しいただけるデモ用アカウントです。
-* **Email:** `test@example.com`
+* **Email:** `test_user@example.com`
 * **Password:** `password`
 
 ## 💡 こだわり・実装の工夫点
