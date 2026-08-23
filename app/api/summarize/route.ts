@@ -54,24 +54,24 @@ export async function POST(req: Request) {
         const finalContent = targetText.slice(0, 8000);
 
         const chatCompletion = await groq.chat.completions.create({
-            messages: [
-                {
-                    role: "system",
-                    content:
-                        "あなたは優秀なWeb記事の編集者です。提供されたWebページのテキストを読み、以下のJSONフォーマット（マークダウンのコードブロックは使わず、生のJSON文字列のみ）で出力してください。\n" +
-                        "{\n  \"title\": \"記事のタイトル（日本語で30文字程度）\",\n" +
-                        "  \"summary\": \"記事の要約（日本語で100〜150文字程度。何が書かれているか簡潔に）\",\n" + // 👈 カンマを追加！
-                        "  \"tech_stack\": \"この記事に関連する主な技術や言語（例: React, Next.js, TypeScript, Supabase など。カンマ区切りで3つ程度）\"\n" +
-                        "}",
-                },
-                {
-                    role: "user",
-                    content: `以下の情報を元に、タイトル、要約、関連する技術や言語を作成してください。\n\n${finalContent}`,
-                },
-            ],
-            model: "llama-3.3-70b-versatile",
-            temperature: 0.3,
-            response_format: { type: "json_object" },
+          messages: [
+            {
+              role: "system",
+              content:
+                "あなたは優秀なWeb記事の編集者です。提供されたWebページのテキストを読み、以下のJSONフォーマット（マークダウンのコードブロックは使わず、生のJSON文字列のみ）で出力してください。\n" +
+                '{\n  "title": "記事のタイトル（日本語で30文字程度）",\n' +
+                '  "summary": "記事の要約（日本語で100〜150文字程度。何が書かれているか簡潔に）",\n' + // 👈 カンマを追加！
+                '  "tech_stack": "この記事に関連する主な技術や言語（例: React, Next.js, TypeScript, Supabase など。カンマ区切りで3つ程度）"\n' +
+                "}",
+            },
+            {
+              role: "user",
+              content: `以下の情報を元に、タイトル、要約、関連する技術や言語を作成してください。\n\n${finalContent}`,
+            },
+          ],
+          model: "openai/gpt-oss-120b",
+          temperature: 0.3,
+          response_format: { type: "json_object" },
         });
 
         const resultText = chatCompletion.choices[0]?.message?.content || "{}";
