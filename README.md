@@ -69,7 +69,7 @@ npm run dev
 <img src="https://img.shields.io/badge/-Next.js-000000.svg?logo=next.js&style=plastic"> <img src="https://img.shields.io/badge/-React-61DAFB.svg?logo=react&style=plastic"> <img src="https://img.shields.io/badge/-TypeScript-3178C6.svg?logo=typescript&style=plastic"> <img src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=plastic"> <img src="https://img.shields.io/badge/-TailwindCSS-06B6D4.svg?logo=tailwindcss&style=plastic"> <img src="https://img.shields.io/badge/-shadcn/ui-000000.svg?logo=radix-ui&style=plastic"> <img src="https://img.shields.io/badge/-Supabase-3FCF8E.svg?logo=supabase&style=plastic"> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1.svg?logo=postgresql&style=plastic"> <img src="https://img.shields.io/badge/-Groq-FF6B6B.svg?logo=groq&style=plastic"> <img src="https://img.shields.io/badge/-Llama%203.3-000000.svg?logo=meta&style=plastic"> <img src="https://img.shields.io/badge/-AI%20SDK-000000.svg?logo=openai&style=plastic"><br />
   ・Frontend: Next.js 14/15 (App Router) / React / TypeScript / Tailwind CSS / Lucide Icons<br />
 ・Backend / DB: Supabase (PostgreSQL / Auth / Row Level Security)<br />
-  ・AI Integration: AI SDK / Groq (Llama 3.3) <br />
+  ・AI Integration: AI SDK / Groq (openai/gpt-oss-120b) <br />
   ・Deployment: Vercel (CI/CD)<br />
 
 ## ER図
