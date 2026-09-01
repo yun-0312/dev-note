@@ -72,6 +72,11 @@ npm run dev
   ・AI Integration: AI SDK / Groq (openai/gpt-oss-120b) <br />
   ・Deployment: Vercel (CI/CD)<br />
 
+## ダッシュボード
+https://github.com/user-attachments/assets/1251f25a-b27d-4763-a7a7-1c86fa22cfa2
+
+
+
 ## ER図
 ```mermaid
 erDiagram
