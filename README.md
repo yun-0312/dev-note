@@ -8,7 +8,7 @@ Supabase の Row Level Security (RLS) による堅牢なアクセス制御や、
 
 
 ## 本番環境（Vercel）
-https://dev-note-863vzjz9a-yun0312s-projects.vercel.app
+[https://dev-note-863vzjz9a-yun0312s-projects.vercel.app](https://dev-note-beta.vercel.app/)
 
 ###  動作確認用アカウント
 アプリの機能をすぐにお試しいただけるデモ用アカウントです。
@@ -113,4 +113,4 @@ using (
 ```
 
 ## URL
-・Vercel本番環境：https://dev-note-863vzjz9a-yun0312s-projects.vercel.app
+・Vercel本番環境：[https://dev-note-863vzjz9a-yun0312s-projects.vercel.app](https://dev-note-beta.vercel.app/)
